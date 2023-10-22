@@ -1,0 +1,18 @@
+html, body {
+    overflow: hidden; 
+    height: 100%; 
+}
+
+.inputbox {
+    background-color: blue; 
+    padding: 120px; 
+    height: 100%; 
+    overflow: auto; 
+}
+
+.box {
+    background-color: lightblue; 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}

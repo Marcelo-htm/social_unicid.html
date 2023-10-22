@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+    <head>
+        <title>Social UNICID</title>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" type="text/css" href="estilo.css">
+    </head>
+    <body>
+        <h1>Bem Vindo ao<br>Social UNICID</h1>
+        <div class="inputbox">
+        <div class="box">
+            <form name="inscricao" action="inscricao.php" method="POST" enctype="multipart/form-data">
+
+        <fieldset>
+            <legenda>Formulario de Inscrissao<n></legenda>    
+        </br>   
+        <input typ="text "name="nome_e_sobrenome" id="nome_e_sobrenome">  
+        <label for="nome_e_sobrenome">Nome do Usoario</label>
+            </br>
+        <label></label>    
+         <input type="number" name="idade" min="0" step="1" id="idade">  
+         <label for="idade">Qual sua Idade</label> 
+        </br>
+        <input type="text" name="endereco" id="endereco">
+        <labe for="endereco">Qual o seu endereco</label>
+        </br>    
+        <input type="number" name="telefone" min="0" step="1" id="telefone">
+        <label for="telefone">Qual o seu telefone</label>
+        </br>
+        <input type="email" name="email" id="email">
+        <label for="email">Qual o seu email</label>
+         </br>
+        <input type="text" name="curso" id="curso">
+        <label for="curso">Qual é o seu curso</label>
+        </br>
+        <input type="file" name="imagem" enctype="multipart/form-data">
+        <label for="imagem">Evie uma Foto</label>
+        </br>
+        <input type="submit" value="ENVIAR">
+        </fieldset>  
+       </form>    
+    </div>
+    </div> 
+    </body>       
+</html>    
